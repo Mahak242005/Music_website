@@ -13,6 +13,7 @@ header{
     top: 0;
     height: 65px;
     align-items: center;
+    z-index: 1;
 }
 header h1{
     margin-left: 75px;
@@ -56,4 +57,43 @@ header nav ul li:hover{
 }
 .first div  p{
     margin: 10px 95px;
+}
+
+.music{
+    height: 600px;
+    background-color: rgb(11, 4, 56);
+}
+.music div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+.music div h2{
+    margin-bottom: 20px;
+}
+.music div h4{
+    margin: 10px 95px;
+    margin-bottom: 20px;
+}
+.music div button{
+    margin-bottom: 20px;
+    height: 30px;
+    width: 138px;
+    background-color: crimson;
+}
+
+.about{
+    height: 500px;
+    color: black;
+}
+.about div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
 }
